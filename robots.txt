@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /go/
+Disallow: /privacy-policy.html
+Disallow: /terms-and-conditions.html
+Disallow: /disclaimer.html
+
+Sitemap: https://trynectar.online/sitemap.xml

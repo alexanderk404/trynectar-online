@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>404 — Page Not Found | Trynectar AI</title>
+<meta name="robots" content="noindex,follow">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=DM+Sans:wght@400;500&family=JetBrains+Mono:wght@400;600&display=swap" media="print" onload="this.media='all'">
+<style>
+:root{--bg-deep:#0a0612;--purple-soft:#9b40e8;--purple-bright:#d47dff;--cyan-bright:#d47dff;--ink-100:#f3eaff;--ink-60:#a89bc2;--line:#2a1f3a;--grad:linear-gradient(135deg,#d47dff,#9b40e8 50%,#7a2ec0)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg-deep);color:var(--ink-100);min-height:100vh;display:flex;flex-direction:column;line-height:1.6;overflow-x:hidden}
+em{font-style:normal;color:var(--cyan-bright);font-weight:600}
+a{color:var(--purple-bright);text-decoration:none}
+.starfield{position:fixed;inset:0;z-index:-1;background:radial-gradient(ellipse at top,#1a0e2c 0%,#0a0612 60%,#050308 100%);pointer-events:none}
+.starfield::before{content:'';position:absolute;inset:-50%;background-image:radial-gradient(2px 2px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 60% 70%,#d47dff,transparent),radial-gradient(1.5px 1.5px at 50% 50%,#d47dff,transparent),radial-gradient(2px 2px at 90% 60%,#d47dff,transparent);background-size:600px 600px;opacity:.6;animation:drift 80s linear infinite}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(-300px,-200px)}}
+nav{padding:18px 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:'Outfit';font-weight:900;font-size:1.2rem;color:var(--ink-100);display:flex;align-items:center;gap:8px}
+.logo .dot{width:10px;height:10px;border-radius:50%;background:var(--grad)}
+nav a{color:var(--ink-60);font-size:.92rem;margin-left:18px}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:60px 22px;text-align:center}
+.box{max-width:560px}
+.code{font-family:'JetBrains Mono',monospace;font-size:clamp(5rem,18vw,10rem);font-weight:600;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;line-height:1;margin-bottom:14px}
+h1{font-family:'Outfit';font-weight:700;font-size:clamp(1.6rem,3.5vw,2.4rem);margin-bottom:14px;letter-spacing:-.02em}
+p{color:var(--ink-60);margin-bottom:26px;font-size:1.05rem}
+.btn{display:inline-block;padding:14px 30px;background:var(--grad);color:#fff;font-family:'Outfit';font-weight:700;border-radius:8px;box-shadow:0 0 30px #9b40e840}
+.btn:hover{transform:translateY(-2px);color:#fff}
+footer{padding:24px 22px;border-top:1px solid var(--line);text-align:center;color:#6f6489;font-size:.82rem}
+</style>
+</head>
+<body>
+<div class="starfield" aria-hidden="true"></div>
+<nav>
+  <a href="/" class="logo"><span class="dot"></span>Trynectar AI</a>
+  <div><a href="/">Home</a><a href="/chat/">Chat</a><a href="/alternatives/">Alternatives</a></div>
+</nav>
+<main>
+  <div class="box">
+    <div class="code">404</div>
+    <h1>This page <em>never opened</em></h1>
+    <p>The URL you followed doesn't match anything on the site — moved, mistyped, or never existed in the first place. The thread on the home page, however, is still waiting.</p>
+    <a href="/" class="btn">Back to Home</a>
+  </div>
+</main>
+<footer>© <script>document.write(new Date().getFullYear())</script> trynectar.online — 18+. Not affiliated with trynectar.ai.</footer>
+</body>
+</html>

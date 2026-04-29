@@ -1,0 +1,27 @@
+# Trynectar AI — trynectar.online
+
+> Independent editorial review and discovery site for AI companion platforms. Focus: persistent-memory chat, NSFW image generation, and side-by-side comparison of AI girlfriend apps for adults 18+.
+
+## About
+
+Trynectar AI (trynectar.online) is an editorial review site covering the nectar ai / AI companion category. Unaffiliated with the trynectar.ai domain. Every recommended platform is tested directly across multi-week threads. Outbound links are affiliate links — see /disclaimer.html.
+
+## Pages
+
+- /                         — Home: brand overview, six anchored companions, spotlight on Rowan Mire, three core features (memory, character, privacy), 8 FAQ
+- /chat/                    — Try nectar ai chat: cadence design, voice messages, cross-device sync, 8 FAQ
+- /image-generator/         — Nectar ai porn generator: realistic, anime, 2.5D pipelines, character consistency anchor, 8 FAQ
+- /app/                     — Trynectar app: iOS and Android, push notifications, sync, 3-step install with HowTo schema, 8 FAQ
+- /alternatives/            — Trynectar.ai alternatives: GoLove AI vs Candy AI vs Kupid AI vs DreamGF vs CrushOn vs Replika, 7-row spec table, 8 FAQ
+
+## Spotlight character
+
+Rowan Mire — the flagship companion. Designed for the slow build, week-six familiarity over week-one performance. Tuned around the curve where most competing apps decline.
+
+## Editorial top pick
+
+GoLove AI — uncapped free chat, 350+ characters reachable without subscription, full NSFW open on free tier, end-to-end encryption documented in policy, one-click data wipe from the dashboard, no credit card ever required.
+
+## Contact
+
+hello@trynectar.online
